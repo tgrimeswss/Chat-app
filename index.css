@@ -28,6 +28,19 @@ body {
   height: 400px;
 }
 
+.centeredText {
+  text-align: center;
+}
+
+.fullHeight {
+  height:500px;
+}
+
+.contentBorder {
+  border-radius: 25px;
+  border: solid black 1px;
+}
+
 .userHistory {
   background-color:blue;
   display: inline-block;
