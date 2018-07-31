@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbarlist {
+  display: inline-block;
+}
+
+.navbarlist,a {
+  color: black;
+  text-decoration:none;
+  text-align:center;
+  background-color:#cae8bb;
+  width: 33%;
+}
+
+.navbarlist,a:hover {
+  color: green;
+}
+
+.main {
+  background-color:yellow;
+  height: 400px;
+}
+
+.userHistory {
+  background-color:blue;
+  display: inline-block;
+  height:100%;
+  width:30%;
+}
+
+.messages {
+  background-color:green;
+  width: 69%;
+  display: inline-block;
+  height:100%;
+}
