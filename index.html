@@ -17,18 +17,7 @@
 
 
     <div class="container">
-
-
-<!--
-1) Get rid of ketchup and mustard colors to whatever color you want
-2) Add padding and margin to make both divs look clean
-  and separate from all other divs
-3) Add a border around each div
-4) Create a header for each div at the top stating what the div will
-  do (Users, Message history)
-
--->
-
+      <!-- ROW #1 -->
       <div class="row fullHeight">
         <div class="col-3 centeredText contentBorder">Users</div>
         <div class="col-9 centeredText contentBorder">Messages</div>
@@ -39,18 +28,28 @@
         <div class="col-sm">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <button type="button" class="btn btn-success">Send</button>
+              <button id="Send" onclick="sendMessage()" type="button" class="btn btn-success">Send</button>
             </div>
-            <input type="text" class="form-control" placeholder="Type your message here..." aria-label="Messagebox" aria-describedby="basic-addon1">
+            <input id="Message" type="text" class="form-control" placeholder="Type your message here..." aria-label="Messagebox" aria-describedby="basic-addon1">
           </div>
         </div>
       </div>
 
-
+<!--
+1) Adding a header ****
+2) Adding list feature to Users column with avatar image
+3) Message column will have message with a timestamp
+4) If its the senders message, it will be a different color schema then the recievers message
+5) Erase messages feature or trash feature
+6) Blocked user list
+7) Favorite users
+8) Space out boxes       ****
+9) Pad messaging content ****
+10) Uniform borders ****
+ -->
     </div>
 
-
-
+    <script src="script.js"></script>
 
 
 
